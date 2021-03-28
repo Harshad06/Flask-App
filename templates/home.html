@@ -3,5 +3,9 @@
 {% block title %} Homepage {% endblock %}
 
 {% block content %} 
+<center>
     <h1>Homepage</h1>
-{% endblock %}
+    <image src="{{ url_for('static', filename='images/joy.jpg')}}">
+    <h3>Flask static files</h3>
+</center>
+    {% endblock %}
